@@ -69,10 +69,10 @@ Steps to exploit:
 	3.press signup button
 <img width="794" alt="3" src="https://cloud.githubusercontent.com/assets/16142079/20405679/32ceaa1e-acd8-11e6-8f92-f9d43b52e7c0.png">  
 
-Q1. Part of the InfoSec Triad:  Confidentiality
-Q2. Kind of Security attack: Interception
-Q3. Be passive when just looking the user’s information
-Q4. Business value lost: data loss, unauthorized access
+Q1. Part of the InfoSec Triad:  Confidentiality  
+Q2. Kind of Security attack: Interception  
+Q3. Be passive when just looking the user’s information  
+Q4. Business value lost: data loss, unauthorized access  
 Q5.Possible Solution:  
 
 	Do type and format check on user input data
