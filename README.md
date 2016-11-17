@@ -25,6 +25,6 @@ Q4. business value lost: user’s session, cookies to
 Q5. possible ways to fix:
 
    1. do filtration to special character, for asp we can use Server.HTMLEncode(),
-     2. Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
-     3. recheck input validation,consider all potentially relevant properties
+   2. Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
+   3. recheck input validation,consider all potentially relevant properties
 
