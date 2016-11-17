@@ -24,9 +24,9 @@ Q4. business value lost: user’s session, cookies to
 
 Q5. possible ways to fix:
 
-    1. do filtration to special character, for asp we can use Server.HTMLEncode(),
-    2. Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
-    3. recheck input validation,consider all potentially relevant properties
+     Do filtration to special character, for asp we can use Server.HTMLEncode(),
+     Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
+     recheck input validation,consider all potentially relevant properties
 
 ##Vulnerability 2
 
@@ -38,11 +38,14 @@ Steps to exploit:
 	2. type ZAP' OR '1'='1' --  to Username input box, and 123 to password input box
 	3. Then you will see one user’s information, change the address of it, then press update button.
     4. log out and use the same username and password to login, then you will see the address have changed to the one you input.
-Q1. Part of the InfoSec Triad:  Confidentiality, Integrity  
+Q1. Part of the InfoSec Triad:  Confidentiality, Integrity 
+
 Q2. Kind of Security attack: Interception, Modification  
+
 Q3. Be passive when just looking the user’s information  
        Be active when modify user’s information  
-Q4. Business value lost: data loss, unauthorized access  
+Q4. Business value lost: data loss, unauthorized access 
+
 Q5.Possible Solution:   
 
 	Do type and format check all data on the server side
