@@ -27,6 +27,8 @@ Q5. possible ways to fix:
      	Do filtration to special character, for asp we can use Server.HTMLEncode(),
      	Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
      	Recheck input validation,consider all potentially relevant properties
+	user can set the session cookie to be HttpOnly.
+
 
 ##Vulnerability 2
 
@@ -56,3 +58,12 @@ Q5.Possible Solution:
 	Do filtration to special character
 	Recheck database information encipherment security.
 
+##Vulnerability 3
+
+
+####Type of Attack: SQL Injection－MySQL
+####URL: http://testphp.vulnweb.com/signup.php
+Steps to exploit:
+	1. open http://testphp.vulnweb.com/signup.php in browser
+	2. input ZAP' UNION ALL select NULL -- to Username input box
+	3.press signup button
