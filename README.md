@@ -11,7 +11,7 @@ Steps to exploit:
     	3. Then you will see a pop-up window like below.
 
 
-<img width="1033" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png">  
+<img width="733" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png">  
 
 
 Q1. Part of InfoSec Triad:
@@ -39,7 +39,7 @@ Steps to exploit:
 	3. Then you will see one user’s information, change the address of it, then press update button.
     4. log out and use the same username and password to login, then you will see the address have changed to the one you input.  
     
-  <img width="544" alt="2" src="https://cloud.githubusercontent.com/assets/16142079/20376775/a5a945de-ac57-11e6-8974-f1a7ba670233.png">
+  <img width="644" alt="2" src="https://cloud.githubusercontent.com/assets/16142079/20376775/a5a945de-ac57-11e6-8974-f1a7ba670233.png">
   
 Q1. Part of the InfoSec Triad:  Confidentiality, Integrity 
 
