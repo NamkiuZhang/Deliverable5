@@ -7,7 +7,7 @@
 Steps to exploit:  
 	
  	1. Open the http://demo.testfire.net/bank/login.aspx  
-        2. Input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then click login button  
+	2. Input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then click login button  
 	3. Then you will see a pop-up window like below.
 
 
