@@ -62,8 +62,9 @@ Q5.Possible Solution:
 
 
 ####Type of Attack: SQL Injection－MySQL
-####URL: http://testphp.vulnweb.com/signup.php
-Steps to exploit:
+####URL: http://testphp.vulnweb.com/signup.php  
+Steps to exploit:  
+
 	1. open http://testphp.vulnweb.com/signup.php in browser
 	2. input ZAP' UNION ALL select NULL -- to Username input box
 	3.press signup button
