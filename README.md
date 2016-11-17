@@ -46,7 +46,8 @@ Q1. Part of the InfoSec Triad:  Confidentiality, Integrity
 Q2. Kind of Security attack: Interception, Modification  
 
 Q3. Be passive when just looking the user’s information  
-       Be active when modify user’s information    
+       		Be active when modify user’s information  
+		
 Q4. Business value lost: data loss, unauthorized access 
 
 Q5.Possible Solution:   
