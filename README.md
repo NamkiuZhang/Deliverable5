@@ -75,7 +75,7 @@ Q3. Be passive when just looking the user’s information
 Q4. Business value lost: data loss, unauthorized access  
 Q5.Possible Solution:  
 
-	Do type and format check on user input data
-	Do filtration to special character
-	Recheck database information encipherment security.
+	    Do type and format check on user input data
+	    Do filtration to special character
+	    Recheck database information encipherment security.
 
