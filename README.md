@@ -31,7 +31,7 @@ Q5. possible ways to fix:
 ##Vulnerability 2
 
 Type of Attack: SQL Injection  
-URL: http://testphp.vulnweb.com/userinfo.php
+URL: http://testphp.vulnweb.com/userinfo.php  
 Steps to exploit:
 
 	1. open http://testphp.vulnweb.com/userinfo.php in browser
