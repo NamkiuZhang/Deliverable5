@@ -6,9 +6,9 @@
 ####URL: http://demo.testfire.net/bank/login.aspx  
 Steps to exploit:
 
-    	1.Open the http://demo.testfire.net/bank/login.aspx
-    	2 Input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then click login button
-    	3.Then you will see a pop-up window like below.
+    	1. Open the http://demo.testfire.net/bank/login.aspx
+    	2. Input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then click login button
+    	3. Then you will see a pop-up window like below.
 
 
 <img width="644" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png"> 
