@@ -24,10 +24,10 @@ Q4. business value lost: user’s session, cookies to
 
 Q5. possible ways to fix:
 
-     	＊ Do filtration to special character, for asp we can use Server.HTMLEncode(),
-     	＊ Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
-     	＊ Recheck input validation,consider all potentially relevant properties
-	＊ user can set the session cookie to be HttpOnly.
+     	* Do filtration to special character, for asp we can use Server.HTMLEncode(),
+     	* Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
+     	* Recheck input validation,consider all potentially relevant properties
+	* user can set the session cookie to be HttpOnly.
 
 
 ##Vulnerability 2
@@ -39,7 +39,7 @@ Steps to exploit:
 	1. open http://testphp.vulnweb.com/userinfo.php in browser
 	2. type ZAP' OR '1'='1' --  to Username input box, and 123 to password input box
 	3. Then you will see one user’s information, change the address of it, then press update button.
-    4. log out and use the same username and password to login, then you will see the address have changed to the one you input.  
+        4. log out and use the same username and password to login, then you will see the address have changed to the one you input.  
     
   <img width="644" alt="2" src="https://cloud.githubusercontent.com/assets/16142079/20376775/a5a945de-ac57-11e6-8974-f1a7ba670233.png">
   
@@ -54,9 +54,9 @@ Q4. Business value lost: data loss, unauthorized access
 
 Q5.Possible Solution:   
 
-	＊ Do type and format check all data on the server side
-	＊ Do filtration to special character
-	＊ Recheck database information encipherment security.
+	* Do type and format check all data on the server side
+	* Do filtration to special character
+	* Recheck database information encipherment security.
 
 ##Vulnerability 3
 
@@ -76,8 +76,8 @@ Q3. Be passive when just looking the user’s information
 Q4. Business value lost: data loss, unauthorized access  
 Q5.Possible Solution:  
 
-	    ＊ Do type and format check on user input data
-	    ＊ Do filtration to special character
-	    ＊ Recheck database information encipherment security.
-	    ＊ Apply a 'whitelist' of allowed characters, or a 'blacklist' of disallowed characteres in user input
-	    ＊ Grant the minimum database access
+	    * Do type and format check on user input data
+	    * Do filtration to special character
+	    * Recheck database information encipherment security.
+	    * Apply a 'whitelist' of allowed characters, or a 'blacklist' of disallowed characteres in user input
+	    * Grant the minimum database access
