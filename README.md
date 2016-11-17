@@ -14,7 +14,7 @@ Steps to exploit:
 <img width="644" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png"> 
 
 
-Q1. Part of InfoSec Triad:
+Q1. Part of InfoSec Triad:Integrity
 
 Q2. Kind of Security Attack: Fabrication
 
@@ -26,7 +26,7 @@ Q5. possible ways to fix:
 
      	Do filtration to special character, for asp we can use Server.HTMLEncode(),
      	Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
-     	recheck input validation,consider all potentially relevant properties
+     	Recheck input validation,consider all potentially relevant properties
 
 ##Vulnerability 2
 
