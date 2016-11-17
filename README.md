@@ -6,9 +6,10 @@ Type of Attack: Cross Site Scripting(Reflected)
 
 URL: http://demo.testfire.net/bank/login.aspx
 Steps to exploit:
-1.open the http://demo.testfire.net/bank/login.aspx
-2 input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then press login button
-3. Then you will see a pop-up window like below.
+
+    1.open the http://demo.testfire.net/bank/login.aspx
+    2 input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then press login button
+    3. Then you will see a pop-up window like below.
 
 
 
@@ -28,3 +29,13 @@ Q5. possible ways to fix:
     2. Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
     3. recheck input validation,consider all potentially relevant properties
 
+Vulnerability 2
+
+Type of Attack: SQL Injection
+URL: http://testphp.vulnweb.com/userinfo.php
+Steps to exploit:
+
+	1. open http://testphp.vulnweb.com/userinfo.php in browser
+	2. type ZAP' OR '1'='1' --  to Username input box, and 123 to password input box
+	3. Then you will see one user’s information, change the address of it, then press update button.
+    4. log out and use the same username and password to login, then you will see the address have changed to the one you input.
