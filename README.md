@@ -24,10 +24,10 @@ Q4. business value lost: user’s session, cookies to
 
 Q5. possible ways to fix:
 
-     	Do filtration to special character, for asp we can use Server.HTMLEncode(),
-     	Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
-     	Recheck input validation,consider all potentially relevant properties
-	user can set the session cookie to be HttpOnly.
+     	＊ Do filtration to special character, for asp we can use Server.HTMLEncode(),
+     	＊ Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
+     	＊ Recheck input validation,consider all potentially relevant properties
+	＊ user can set the session cookie to be HttpOnly.
 
 
 ##Vulnerability 2
@@ -54,9 +54,9 @@ Q4. Business value lost: data loss, unauthorized access
 
 Q5.Possible Solution:   
 
-	Do type and format check all data on the server side
-	Do filtration to special character
-	Recheck database information encipherment security.
+	＊ Do type and format check all data on the server side
+	＊ Do filtration to special character
+	＊ Recheck database information encipherment security.
 
 ##Vulnerability 3
 
@@ -76,8 +76,8 @@ Q3. Be passive when just looking the user’s information
 Q4. Business value lost: data loss, unauthorized access  
 Q5.Possible Solution:  
 
-	    ＊Do type and format check on user input data
-	    ＊Do filtration to special character
-	    ＊Recheck database information encipherment security.
-	    ＊Apply a 'whitelist' of allowed characters, or a 'blacklist' of disallowed characteres in user input
-	    ＊Grant the minimum database access
+	    ＊ Do type and format check on user input data
+	    ＊ Do filtration to special character
+	    ＊ Recheck database information encipherment security.
+	    ＊ Apply a 'whitelist' of allowed characters, or a 'blacklist' of disallowed characteres in user input
+	    ＊ Grant the minimum database access
