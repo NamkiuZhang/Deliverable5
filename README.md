@@ -28,7 +28,7 @@ Q5. possible ways to fix:
      	* Do filtration to special character, for asp we can use Server.HTMLEncode(),
      	* Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
      	* Recheck input validation,consider all potentially relevant properties
-	* User can set the session cookie to be HttpOnly.
+        * User can set the session cookie to be HttpOnly.
 
 
 ##Vulnerability 2
