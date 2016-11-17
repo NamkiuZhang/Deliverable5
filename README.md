@@ -2,8 +2,7 @@
 
 ##Vulnerability 1
 
-Type of Attack: Cross Site Scripting(Reflected)
-
+Type of Attack: Cross Site Scripting(Reflected) 
 URL: http://demo.testfire.net/bank/login.aspx  
 Steps to exploit:
 
