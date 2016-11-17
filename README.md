@@ -11,7 +11,7 @@ Steps to exploit:
     	3. Then you will see a pop-up window like below.
 
 
-
+<img width="1033" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png">  
 
 
 Q1. Part of InfoSec Triad:
