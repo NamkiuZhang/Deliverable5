@@ -4,7 +4,7 @@
 
 Type of Attack: Cross Site Scripting(Reflected)
 
-URL: http://demo.testfire.net/bank/login.aspx 
+URL: http://demo.testfire.net/bank/login.aspx  
 Steps to exploit:
 
     1.open the http://demo.testfire.net/bank/login.aspx
