@@ -5,8 +5,8 @@
 ####Type of Attack: Cross Site Scripting(Reflected)  
 ####URL: http://demo.testfire.net/bank/login.aspx  
 Steps to exploit:  
-
-    	1. Open the http://demo.testfire.net/bank/login.aspx  
+	
+ 	1. Open the http://demo.testfire.net/bank/login.aspx  
         2. Input “><script>alert(1);</script> to Username input box, and input 111 to Password input box, then click login button  
 	3. Then you will see a pop-up window like below.
 
@@ -22,12 +22,13 @@ Q3. active attacks
 
 Q4. business value lost: user’s session, cookies to 
 
-Q5. possible ways to fix:
+Q5. possible ways to fix:	
+	
 
-     	*  Do filtration to special character, for asp we can use Server.HTMLEncode(),
-     	*  Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
+     	* Do filtration to special character, for asp we can use Server.HTMLEncode(),
+     	* Use the HTTP head to specify type,use and specify a character encoding such as ISO-8859-1 or UTF-8
      	* Recheck input validation,consider all potentially relevant properties
-	* user can set the session cookie to be HttpOnly.
+	* User can set the session cookie to be HttpOnly.
 
 
 ##Vulnerability 2
