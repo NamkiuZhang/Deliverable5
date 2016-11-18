@@ -14,7 +14,7 @@ Steps to exploit:
 <img width="644" alt="1" src="https://cloud.githubusercontent.com/assets/16142079/20376754/728b287a-ac57-11e6-83f0-87284efa4bb6.png"> 
 
 
-Q1. Part of InfoSec Triad: Integrity
+Q1. Part of InfoSec Triad: Integrity, for unauthorized user can write data
 
 Q2. Kind of Security Attack: Fabrication
 
@@ -44,7 +44,7 @@ Steps to exploit:
 	5. Then you will see following situation
   <img width="644" alt="2" src="https://cloud.githubusercontent.com/assets/16142079/20376775/a5a945de-ac57-11e6-8974-f1a7ba670233.png">
   
-Q1. Part of the InfoSec Triad:  Confidentiality, Integrity 
+Q1. Part of the InfoSec Triad:  Confidentiality for user's info are exposed to unauthorized users, Integrity for unauthorized user can write and change data
 
 Q2. Kind of Security attack: Interception, Modification  
 
@@ -71,7 +71,7 @@ Steps to exploit:
 	3. Press signup button
 <img width="794" alt="3" src="https://cloud.githubusercontent.com/assets/16142079/20405679/32ceaa1e-acd8-11e6-8f92-f9d43b52e7c0.png">  
 
-Q1. Part of the InfoSec Triad: Confidentiality  
+Q1. Part of the InfoSec Triad: Confidentiality for unauthorized user may get other's information  
 
 Q2. Kind of Security attack: Interception  
 
