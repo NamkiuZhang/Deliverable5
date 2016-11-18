@@ -20,7 +20,7 @@ Q2. Kind of Security Attack: Fabrication
 
 Q3. active attacks
 
-Q4. business value lost: user’s session, cookies to 
+Q4. business value lost: unauthorized user may get user’s sessions, cookies information
 
 Q5. possible ways to fix:	
 	
@@ -51,7 +51,7 @@ Q2. Kind of Security attack: Interception, Modification
 Q3. Be passive when just looking the user’s information  
     		Be active when modify user’s information  
 		
-Q4. Business value lost: data loss, unauthorized access 
+Q4. Business value lost: data loss, unauthorized access. Unauthorized user may login in this system and get some user's informaion 
 
 Q5.Possible Solution:   
 
@@ -73,8 +73,8 @@ Steps to exploit:
 
 Q1. Part of the InfoSec Triad:  Confidentiality  
 Q2. Kind of Security attack: Interception  
-Q3. Be passive when just looking the user’s information  
-Q4. Business value lost: data loss, unauthorized access  
+Q3. passive attack, since it just get information, do not change info
+Q4. Business value lost: data loss, unauthorized access. Through trying different sql, unauthorized user may get lots of other users information.  
 Q5.Possible Solution:  
 
 	    * Do type and format check on user input data
