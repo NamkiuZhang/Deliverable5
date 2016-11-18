@@ -73,7 +73,7 @@ Steps to exploit:
 
 Q1. Part of the InfoSec Triad:  Confidentiality  
 Q2. Kind of Security attack: Interception  
-Q3. passive attack, since it just get information, do not change info
+Q3. passive attack, since it just get information, do not change info  
 Q4. Business value lost: data loss, unauthorized access. Through trying different sql, unauthorized user may get lots of other users information.  
 Q5.Possible Solution:  
 
