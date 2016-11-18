@@ -51,7 +51,7 @@ Q2. Kind of Security attack: Interception, Modification
 Q3. Be passive when just looking the user’s information  
     		Be active when modify user’s information  
 		
-Q4. Business value lost: data loss, unauthorized access. Unauthorized user can login in this system, get some user's informaion and edit other users information
+Q4. Business value lost: data loss, unauthorized access. Unauthorized user can login in this system, get some user's information and edit other users information
 
 Q5.Possible Solution:   
 
